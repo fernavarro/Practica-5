@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace practica_5
+{
+	/// <summary>
+	/// Description of MainForm.
+	/// </summary>
+	public partial class MainForm : Form
+	{
+		public MainForm()
+		{
+			
+			InitializeComponent();
+			
+		}
+		
+		void Label1Click(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void TextBox1TextChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void Label2Click(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void ComboBox1SelectedIndexChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void Label3Click(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void ComboBox2SelectedIndexChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			int convertidos=12;
+			if ((this.pesos != null)) {
+				convertidos++;
+			}
+			MessageBox.Show("Convertidos: " + convertidos);
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			pesos.Clear();
+		}
+	}
+}
